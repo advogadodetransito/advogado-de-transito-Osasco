@@ -128,3 +128,19 @@ body {
         font-size: 2rem;
     }
 }
+
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25D366; /* WhatsApp green */
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.whatsapp-button:hover {
+    background-color: #1EBE5D; /* Slightly darker green */
+}
